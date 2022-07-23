@@ -10,3 +10,9 @@ __PANDJI SETIYA BUDHI ARTHA__ -- _Tugas writing minggu kedua_
 |  4 | JavaScript - Scope        |
 |  5 | JavaScript - Function     |
 |  6 | JavaScript - DOM          |
+
+--------------------------------------------------------------------------------------------
+
+## __1. JAVASCRIPT - INTRODUCTION__ <br>
+Javascript adalah bahasa pemograman yang saat ini sering digunakan untuk membuat website. Dengan ditambahkan javascript akan membuat website menjadi lebih interaktif dan dinamis
+
