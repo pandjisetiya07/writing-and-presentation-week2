@@ -26,3 +26,13 @@ __- Tipe data pada JavaScript__ <br>
 |   4    | Null          | Tipe data yang diartikan bahwa sebuah variable/data tidak memiliki nilai. | 
 |   5    | Undefined     | Tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai. Undefined didapat dari hasil berikut: <br> - Nilai dari pemanggilan variabel yang belum didefinisikan. <br> - Nilai dari pemanggilan element array yang tidak ada. <br> - Nilai dari pemanggilan property objek yang tidak ada. <br> - Nilai dari pemanggilan fungsi yang tidak mengembalikan nilai (return). <br> - Nilai dari parameter fungsi yang tidak memiliki argumen. |
 |   6    | Object        | Tipe data yang dapat menyimpan data dengan tipe apapun seperti, Number, String, Boolean, dan lainnya | 
+
+--------------------------------------------------------------------------------------------
+
+__- Variabel JavaScript__ <br>
+Variabel yaitu tempat atau wadah yang digunakan untuk menyimpan sebuah nilai. 3 hal yang dapat dilakukan sebuah Variabel : <br>
+1. Membuat Variabel dengan __nama yang jelas__. <br>
+2. Dapat menyimpan dan mengupdate informasi atau data yg disimpan.
+3. Mendapatkan data yang disimpan. 
+
+---------------------------------------------------------------------------------------------
