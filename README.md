@@ -84,3 +84,28 @@ console.log(dataPekerjaan)
 ```
 
 __- Switch Case__ <br>
+Salah satu cara untuk menyelesaikan sebuah kondisi / percabangan yang banyak contohnya :
+```
+let kasus = 2
+switch(kasus){
+    case 1 :{
+        console.log("kasus 1")
+        break;
+    }
+    case 2 :{
+        console.log("kasus 2")
+        break;
+    }
+    case 3 :{
+        console.log("kasus 3")
+        break;
+    }
+    case 4 :{
+        console.log("kasus 4")
+        break;
+    }
+    default  :{
+        console.log("TIdak ada Kasus")
+    }
+}
+```
