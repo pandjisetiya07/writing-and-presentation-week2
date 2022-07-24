@@ -74,3 +74,13 @@ if(jam > 18) {
 	console.log('Selamat siang');
 }
 ```
+--------------------------------------------------------------------------------------------
+__- Truthy and Falsy Assignment__ <br>
+Sebuah website yang memiliki inputan, tetapi tidak diniputkan maka dapat dapat mengisinya dengan nilai default yang di buat, contohnya :
+```
+let pekerjaan = ""
+let dataPekerjaan = pekerjaan || "belum bekerja"
+console.log(dataPekerjaan)
+```
+
+__- Switch Case__ <br>
