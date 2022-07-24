@@ -36,3 +36,41 @@ Variabel yaitu tempat atau wadah yang digunakan untuk menyimpan sebuah nilai. 3 
 3. Mendapatkan data yang disimpan. 
 
 ---------------------------------------------------------------------------------------------
+
+## __2. JavaScript - Conditional__ <br>
+Merupakan __percabangan__ yang menggambarkan suatu __kondisi__.  Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut, yang di cek apakah kondisi tersebut sudah __TRUE(benar)__. <br>
+
+---------------------------------------------------------------------------------------------
+
+__- Contoh Conditional__ <br>
+1. __IF Statement__ -  memungkinkan untuk membuat perbandingan logis antara nilai dan apa yang diharapkan dengan menguji kondisi dan mengembalikan hasil jika True atau False contohnya. <br>
+```
+let variabel = 10
+if (variabel === 10){
+    console.log('Ini benar variabel bernilai 10')
+} 
+// apa bila value pada let bukan nilai 10 maka tidak akan muncul / undefined
+```
+
+2. __IF...ELSE IF Statement__ - digunakan untuk menentukan kondisi kedua, apabila setelah pengujian pada kondisi yang pertama salah, dan akan di eksekusi jika kondisinya benar.
+```
+let buah = 'apel';
+
+if(buah == 'jeruk') {
+	console.log('Ini bukan buah apel');
+} else if(buah == 'apel') {
+	console.log('Ini adalah apel');
+} else {
+    console.log('Ini bukan buah');
+}
+```
+3. __IF...ELSE Statement__ - digunakan apabila semua kondisi sebelumnya salah, maka ELSE adalah opsional dari kondisi-kondisi lainnya dan akan di eksekusi.
+```
+var jam = 18;
+
+if(jam > 18) {
+	console.log('Selamat malam');
+} else {
+	console.log('Selamat siang');
+}
+```
