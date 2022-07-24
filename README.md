@@ -109,3 +109,14 @@ switch(kasus){
     }
 }
 ```
+------------------------------------------------------------------------------------------
+
+## __3. JavaScript - Looping__ <br>
+Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai. 
+
+| __No__ | __Jenis Looping__ | __Penjelasan__ |
+|--------|-------------------|----------------|
+|   1    | For Loop          |                |
+|   2    | While Loop        |                |
+|   3    | Do While          |                |
+|   4    | Nested Loop       |                |
