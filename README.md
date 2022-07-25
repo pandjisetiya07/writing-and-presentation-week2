@@ -201,3 +201,15 @@ console.log = document.querySelector("#nama_id" / ".nama_Class")
 //memanggil seluruh Atribut di HTML(semua tag)
 console.log = document.querySelectorAll("#nama_Id" / ".nama_Class")
 ```
+
+__Mengubah Konten Element__
+Memungkinkan kita mengubah konten dan style elemen HTML dengan mengubah propertinya.seperti :
+```
+//penggunaan InnerHTML
+//dalam kasus ini dom dapat melakukan manipulasi tampilan.
+console.log = document.getElementById("nama_Id").textContent = "rubah isi content"
+
+//penggunaan innerHTML
+console.log = document.getElementById("nama_Id").innerHTML = "<h1> Rubah isi content </h1> "
+```
+Perbedaan yang terdapat di __textContent__ dan __innerHTML__ yaitu saat menggunakan _innerHTML_ dapat menjalankan tag yang ada di HTML dan merubah isi kontennya. sedangkan _textContent_ hanya bisa merubah isi konten tanpa menjalankan tag HTML seperti ``<h1>``, ``<p>``, dll.
