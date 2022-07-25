@@ -179,6 +179,25 @@ function defaultParameter(pekerjaan = 'Front End'){
     return 'devisi saya di' + pekerjaan
 }
 console.log(defaultParameters('IT')) // maka akan muncul "devisi saya di IT"
-console.log(defaultParameters())// maka akan muncul "devisi saya di Front End"
+console.log(defaultParameters()) // maka akan muncul "devisi saya di Front End"
 ```
+------------------------------------------------------------------------------------
 
+## __6. JavaScript - DOM__ <br>
+Javascript DOM (Document Object Model) adalah interface yang memungkinkan developer untuk memanipulasi konten, struktur, dan style situs web
+
+__Mencari Element HTML__ <br>
+Untuk mencari element HTML seperti __ID__ dan __CLASS__ pada JavaScript dapat menggunakan beberapa cara seperti :
+```
+//mencari 1 element dengan id tertentu di HTML
+console.log = document.getElementById("nama_ID")
+
+//mencari beberapa element dengan class tertentu di HTML
+console.log = document.getByClassName("nama_Class")
+
+//pemanggilan menggunakan query selector(satu tag)
+console.log = document.querySelector("#nama_id" / ".nama_Class")
+
+//memanggil seluruh Atribut di HTML(semua tag)
+console.log = document.querySelectorAll("#nama_Id" / ".nama_Class")
+```
