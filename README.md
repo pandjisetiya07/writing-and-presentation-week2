@@ -119,4 +119,27 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
 |   1    | For Loop          | Jenis Pengulangan yang bisa kita berikan pada program kita. For Loop digunakan apabila kita mengetahui __berapa banyak nilai pasti__ yang akan diulang |
 |   2    | While Loop        | Akan menjalankan instruksi pengulangan kondisi bernilai TRUE. |
 |   3    | Do While          | Melakukan perulangan terlebih dahulu tanpa melakukan pengecekan kondisi yang diinginkan |
-|   4    | Nested Loop       | Kita membuat looping didalam looping.Looping pertama dianalogikan sebagai baris.Looping kedua dianalogikan sebagai kolom |
+|   4    | Nested Loop       | Kita membuat looping didalam looping.Looping pertama dianalogikan sebagai baris.Looping kedua dianalogikan sebagai kolom | <br>
+
+------------------------------------------------------------------------------------------
+
+## __4. JavaScript - Scope__ <br>
+Sebuah Konsep dimana terdapat flow data variabel, yang dapat di akses pada scope tertentu atau tidak. Scope terbagi menjadi 2 yaitu : <br>
+1. __Global Scope__ - > yaitu variabel yang dibuat dapat diakses dimanapun dalam satu file, dengan syarat __variabel harus dideklarasikan di __luar Block__.  <br>
+```
+let scopeGlobal = "Pandji"
+function contoh(){
+  return scopeGlobal
+}
+
+console.log(scopeGlobal)
+```
+2. __Local Scope__ -> yaitu variabel yang hanya bisa digunakan __didalam Block__ seperi _Function, Conditional, dan Looping_. dan tidak dapat di akses di luar blocks.
+```
+function contoh(){
+  let scopeLocal = "Pandji setiya";
+  return scopeLocal
+}
+console.log(contoh())
+console.log(scopeLocal)
+```
