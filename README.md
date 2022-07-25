@@ -116,7 +116,7 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
 
 | __No__ | __Jenis Looping__ | __Penjelasan__ |
 |--------|-------------------|----------------|
-|   1    | For Loop          |                |
-|   2    | While Loop        |                |
-|   3    | Do While          |                |
-|   4    | Nested Loop       |                |
+|   1    | For Loop          | Jenis Pengulangan yang bisa kita berikan pada program kita. For Loop digunakan apabila kita mengetahui __berapa banyak nilai pasti__ yang akan diulang |
+|   2    | While Loop        | Akan menjalankan instruksi pengulangan kondisi bernilai TRUE. |
+|   3    | Do While          | Melakukan perulangan terlebih dahulu tanpa melakukan pengecekan kondisi yang diinginkan |
+|   4    | Nested Loop       | Kita membuat looping didalam looping.Looping pertama dianalogikan sebagai baris.Looping kedua dianalogikan sebagai kolom |
