@@ -172,3 +172,13 @@ function perkalian(a,b){
 }
 console.log(perkalian(10, 2))
 ```
+__- Default Parameters__ <br>
+Default paramaters digunakan untuk memberikan nilai awal/default pada parameter function. Untuk menghindari eror saat pemanggilan tanpa adanya argumen dalam fungsi tersebut.
+```
+function defaultParameter(pekerjaan = 'Front End'){
+    return 'devisi saya di' + pekerjaan
+}
+console.log(defaultParameters('IT')) // maka akan muncul "devisi saya di IT"
+console.log(defaultParameters())// maka akan muncul "devisi saya di Front End"
+```
+
