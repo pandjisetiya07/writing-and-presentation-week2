@@ -143,3 +143,14 @@ function contoh(){
 console.log(contoh())
 console.log(scopeLocal)
 ```
+
+-------------------------------------------------------------------------------------------------
+
+## __5. JavaScript - Function__ <br>
+Sebuah Blok kode untuk menyelesaikan 1 task / 1 fitur, apabila nanti kita membutuhkan bisa kembali digunakan. contoh penulisan function
+```
+function contoh(){
+  return 'contoh Function'
+}
+```
+Dalam _function_ terdiri dari __Function Keyword__ , __Identifier/penamaan fungsi__,dan __Fucntion body__
