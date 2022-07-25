@@ -154,3 +154,21 @@ function contoh(){
 }
 ```
 Dalam _function_ terdiri dari __Function Keyword__ , __Identifier/penamaan fungsi__,dan __Fucntion body__
+
+__- Parameter dan Argumen__ <br>
+1. __Parameter Function__ -> function dapat menerima sebuah inputan data dan menggunakannya untuk melakukan task/tugas.Saat membuat function/fitur, kita harus tahu data-data yang dibutuhkan.
+```
+function perkalian(a,b){
+  return a * b
+}
+```
+dalam contoh kasus diatas saya ingin melakukan perkalian maka dibutuhkan 2 buah nilai / parameter yaitu __(a,b)__ dan diletakkan pada fungsi yang nantinya akan di proses. <br>
+
+2. __Argumen Function__ <br>
+Argumen adalah nilai yang digunakan saat memanggil function. Jumlah argumen harus sama dengan jumlah parameternya Jadi jika di function penambahan ada 2 parameter nilai saat membuat function. Saat memanggil function kita gunakan 2 buah nilai argumen.
+```
+function perkalian(a,b){
+  return a * b
+}
+console.log(perkalian(10, 2))
+```
